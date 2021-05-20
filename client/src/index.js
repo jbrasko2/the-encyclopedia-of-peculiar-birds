@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { createStore, compose, applyMiddleware } from 'redux'
-import { reducer } from './redux/reducer'
+import { birdReducer } from './redux/birdReducer'
 import { Provider } from 'react-redux'
 import thunk from 'redux-thunk'
 import { HashRouter } from 'react-router-dom'
