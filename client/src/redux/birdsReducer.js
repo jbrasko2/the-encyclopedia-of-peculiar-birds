@@ -17,7 +17,7 @@ const initialState = {
     requesting: false
 }
 
-const birdReducer = (state = initialState, action) => {
+const birdsReducer = (state = initialState, action) => {
     switch (action.type) {
         case "START_BIRD_REQUEST":
             return {...state, birds: [...state.birds], requesting: true}
@@ -31,4 +31,4 @@ const birdReducer = (state = initialState, action) => {
     }
 }
 
-export default birdReducer
+export default birdsReducer

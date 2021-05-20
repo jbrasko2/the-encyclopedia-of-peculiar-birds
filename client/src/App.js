@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import { Switch, Route } from 'react-router-dom'
 import './App.css';
-import BirdCard from './components/BirdCard'
 import { getBirds } from './redux/actionCreators'
 import { connect } from 'react-redux'
+import BirdCardContainer from './containers/BirdCardContainer';
 
 class App extends Component {
 
@@ -15,7 +15,7 @@ class App extends Component {
     return (
       <>
         <Switch>
-          <Route exact path="/" component={BirdCard} />
+          <Route exact path="/" component={BirdCardContainer} />
         </Switch>
       </>
     )
