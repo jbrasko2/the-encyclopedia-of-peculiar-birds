@@ -1,13 +1,13 @@
 const nullBird = {
     id: null,
     name: "",
-    sciName: "",
+    scientificName: "",
     order: "",
     family: "",
     genus: "",
     species: "",
-    conserv: "",
-    desc: "",
+    conservation: "",
+    description: "",
     imgUrl: ""
 }
 
