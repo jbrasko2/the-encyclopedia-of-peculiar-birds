@@ -1,9 +1,10 @@
 import './App.css';
+import BirdCard from './components/BirdCard'
 
 function App() {
   return (
     <div>
-      Hello
+      <BirdCard />
     </div>
   );
 }
