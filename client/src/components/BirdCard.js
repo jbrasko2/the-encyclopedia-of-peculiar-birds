@@ -2,13 +2,21 @@ import React from 'react'
 import styled from 'styled-components/macro'
 
 const BirdCard = props => {
-    const { name, sciName, order, family, genus, species, conserv, desc, imgUrl } = props
+    const { name, scientificName, order, family, genus, species, conservation, description, imgUrl } = props
 
     return (
-        <Test>Hello Test</Test>
+        <ul>
+            <li>{name}</li>
+            <li>{scientificName}</li>
+            <li>{order}</li>
+            <li>{family}</li>
+            <li>{genus}</li>
+            <li>{species}</li>
+            <li>{conservation}</li>
+            <li>{description}</li>
+            <img src={imgUrl} />
+        </ul>
     )
 }
-
-const Test = styled.div``
 
 export default BirdCard
