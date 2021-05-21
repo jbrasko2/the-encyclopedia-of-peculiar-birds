@@ -6,7 +6,7 @@ class BirdsController < ApplicationController
     end
 
     def show
-        render json: @bird
+        render json: @bird, serializer: BirdShowSerializer
     end
 
     private

@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components/macro'
 
 const BirdCard = props => {
-    const { name, scientificName, order, family, genus, species, conservation, description, imgUrl } = props
+    const { name, scientificName, imgUrl } = props
 
     return (
         <ul>

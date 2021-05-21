@@ -3,7 +3,8 @@ import { Switch, Route } from 'react-router-dom'
 import './App.css';
 import { getBirds } from './redux/actionCreators'
 import { connect } from 'react-redux'
-import BirdCardContainer from './containers/BirdCardContainer';
+import BirdCardContainer from './containers/BirdCardContainer'
+import BirdPage from './containers/BirdPage'
 
 class App extends Component {
 
@@ -16,6 +17,8 @@ class App extends Component {
       <>
         <Switch>
           <Route exact path="/" component={BirdCardContainer} />
+          <Route exact path="/birds" component={BirdCardContainer} />
+          <Route exact path="/birds/:id" component={BirdPage} />
         </Switch>
       </>
     )
