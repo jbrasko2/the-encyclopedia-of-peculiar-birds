@@ -8,12 +8,6 @@ const BirdCard = props => {
         <ul>
             <li>{name}</li>
             <li>{scientificName}</li>
-            <li>{order}</li>
-            <li>{family}</li>
-            <li>{genus}</li>
-            <li>{species}</li>
-            <li>{conservation}</li>
-            <li>{description}</li>
             <img src={imgUrl} />
         </ul>
     )
