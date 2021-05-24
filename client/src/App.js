@@ -7,6 +7,7 @@ import BirdCardContainer from './containers/BirdCardContainer'
 import BirdPage from './containers/BirdPage'
 import ListPage from './containers/ListPage'
 import NavBar from './containers/Navbar'
+import Footer from './containers/Footer'
 
 class App extends Component {
 
@@ -24,6 +25,7 @@ class App extends Component {
           <Route exact path="/birds/:id" component={BirdPage} />
           <Route exact path="/list" component={ListPage} />
         </Switch>
+        <Footer />
       </>
     )
   }

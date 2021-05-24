@@ -18,9 +18,10 @@ const BirdCard = props => {
 const Wrapper = styled.div`
     height: 600px;
     width: 400px;
-    background: hsl(0, 0%, 90%);
+    background: hsl(45, 35%, 90%);
     margin: 16px;
     padding: 16px;
+    border-radius: 8px;
 
     img {
         display: block;
@@ -29,9 +30,8 @@ const Wrapper = styled.div`
     }
 `
 const NameWrapper = styled.div`
-    display: flex;
-    align-items: baseline;
-
+    text-align: center;
+    
     > * {
         margin: 8px;
     }
