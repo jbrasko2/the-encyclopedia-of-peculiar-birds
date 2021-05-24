@@ -27,7 +27,7 @@ class BirdPage extends Component {
                 <li>{species}</li>
                 <li>{conservation}</li>
                 <li>{description}</li>
-                <img src={imgUrl} />
+                <img src={require('../bird-images/' + imgUrl).default} />
             </ul>
         )
     }
