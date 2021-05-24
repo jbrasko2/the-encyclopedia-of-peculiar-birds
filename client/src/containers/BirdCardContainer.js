@@ -1,15 +1,16 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import BirdCard from '../components/BirdCard'
+import styled from 'styled-components/macro'
 
 class BirdCardContainer extends Component {
     
     renderPage = () => {
         return (
             <>
-                <div>
+                <Wrapper>
                     {this.props.birds.map(bird => <BirdCard key={bird.id} {...bird} />)}
-                </div>
+                </Wrapper>
             </>
         )
     }
@@ -22,6 +23,9 @@ class BirdCardContainer extends Component {
         )
     }
 }
+
+const Wrapper = styled.div`
+`
 
 const mapStateToProps = state => ({
     birds: state.birds.birds,

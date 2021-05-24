@@ -16,6 +16,7 @@ const BirdCard = props => {
 }
 
 const Wrapper = styled.div`
+    display: inline-block;
     height: 600px;
     width: 400px;
     background: hsl(45, 35%, 90%);
