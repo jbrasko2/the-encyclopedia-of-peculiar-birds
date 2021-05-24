@@ -10,7 +10,7 @@ const BirdCard = props => {
                 <h2>{name}</h2>
                 <h4>({scientificName})</h4>
             </NameWrapper>
-            <img src={imgUrl} />
+            <img src={require('../bird-images/' + imgUrl).default} />
         </Wrapper>
     )
 }
@@ -31,7 +31,7 @@ const Wrapper = styled.div`
 `
 const NameWrapper = styled.div`
     text-align: center;
-    
+
     > * {
         margin: 8px;
     }
