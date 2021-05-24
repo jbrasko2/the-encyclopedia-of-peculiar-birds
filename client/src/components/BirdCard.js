@@ -6,35 +6,40 @@ const BirdCard = props => {
 
     return (
         <Wrapper>
+            <img src={require('../bird-images/' + imgUrl).default} />
             <NameWrapper>
                 <h2>{name}</h2>
                 <h4>({scientificName})</h4>
             </NameWrapper>
-            <img src={require('../bird-images/' + imgUrl).default} />
         </Wrapper>
     )
 }
 
 const Wrapper = styled.div`
     display: inline-block;
-    height: 600px;
-    width: 400px;
-    background: hsl(45, 35%, 90%);
+    position: relative;
+    height: 700px;
+    width: 450px;
     margin: 16px;
     padding: 16px;
     border-radius: 8px;
-
-    img {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;    img {
+        position: absolute;
+        top: 0;
+        left: 0;
         display: block;
-        width: 75%;
+        width: 100%;
         margin: auto;
     }
 `
 const NameWrapper = styled.div`
-    text-align: center;
-
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
     > * {
-        margin: 8px;
+        text-align: center;
     }
 `
 
