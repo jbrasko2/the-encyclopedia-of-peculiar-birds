@@ -5,12 +5,36 @@ const BirdCard = props => {
     const { name, scientificName, imgUrl } = props
 
     return (
-        <ul>
-            <li>{name}</li>
-            <li>{scientificName}</li>
+        <Wrapper>
+            <NameWrapper>
+                <h2>{name}</h2>
+                <h4>({scientificName})</h4>
+            </NameWrapper>
             <img src={imgUrl} />
-        </ul>
+        </Wrapper>
     )
 }
+
+const Wrapper = styled.div`
+    height: 600px;
+    width: 400px;
+    background: hsl(0, 0%, 90%);
+    margin: 16px;
+    padding: 16px;
+
+    img {
+        display: block;
+        width: 75%;
+        margin: auto;
+    }
+`
+const NameWrapper = styled.div`
+    display: flex;
+    align-items: baseline;
+
+    > * {
+        margin: 8px;
+    }
+`
 
 export default BirdCard
