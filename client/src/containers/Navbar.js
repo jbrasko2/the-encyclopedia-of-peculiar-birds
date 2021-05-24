@@ -20,9 +20,12 @@ const Navbar = () => {
 
 const NavWrapper = styled.div`
     border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
 `
 const NavButton = styled.button`
     display: inline-block;
+    margin: 12px;
 `
 
 export default Navbar
