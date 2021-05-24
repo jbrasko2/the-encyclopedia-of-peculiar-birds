@@ -6,7 +6,7 @@ import { connect } from 'react-redux'
 import BirdCardContainer from './containers/BirdCardContainer'
 import BirdPage from './containers/BirdPage'
 import ListPage from './containers/ListPage'
-import NavBar from './components/Navbar'
+import NavBar from './containers/Navbar'
 
 class App extends Component {
 
