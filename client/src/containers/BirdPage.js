@@ -17,18 +17,16 @@ class BirdPage extends Component {
     renderPage = () => {
         const { id, name, scientificName, order, family, genus, species, conservation, description, imgUrl } = this.props
         return (
-            <ul>
-                <li>{id}</li>
-                <li>{name}</li>
-                <li>{scientificName}</li>
-                <li>{order}</li>
-                <li>{family}</li>
-                <li>{genus}</li>
-                <li>{species}</li>
-                <li>{conservation}</li>
-                <li>{description}</li>
-                <img src={require('../bird-images/' + imgUrl).default} />
-            </ul>
+            <Wrapper>
+                <Name>{name}</Name>
+                <Scientific>{scientificName}</Scientific>
+                <BirdImage src={require('../bird-images/' + imgUrl).default} />
+                <Classification>{order}</Classification>
+                <Classification>{family}</Classification>
+                <SpecificClass>{genus}</SpecificClass>
+                <SpecificClass>{species}</SpecificClass>
+                <Description>{description}</Description>
+            </Wrapper>
         )
     }
 
@@ -40,6 +38,41 @@ class BirdPage extends Component {
         )
     }
 }
+
+const Wrapper = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+`
+
+const Name = styled.div`
+    font-size: 2rem;
+    margin: 24px;
+`
+
+const Scientific = styled.div`
+    font-size: 1.5rem;
+    font-style: italic;
+`
+
+const BirdImage = styled.img`
+    height: 600px;
+    width: 450px;
+    margin: 24px;
+`
+
+const Classification = styled.div`
+
+`
+
+const SpecificClass = styled.div`
+    font-style: italic;
+`
+
+const Description = styled.div`
+    max-width: 800px;
+    font-size: 1.25rem;
+`
 
 const mapStateToProps = state => ({
     ...state.birds.selectedBird
