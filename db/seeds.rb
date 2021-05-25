@@ -14,7 +14,7 @@ Bird.create(
     genus: 'Ardea',
     species: 'A. herodias',
     conservation: 'LC',
-    description: 'The great blue heron (Ardea herodias) is a large wading bird in the heron family Ardeidae, common near the shores of open water and in wetlands over most of North America and Central America, as well as the Caribbean and the Galápagos Islands. It is a rare vagrant to coastal Spain, the Azores, and areas of far southern Europe. An all-white population found in south Florida and the Florida Keys is known as the great white heron. Debate exists about whether this represents a white color morph of the great blue heron, a subspecies of it, or an entirely separate species.[2][3] The status of white individuals known to occur elsewhere in the Caribbean, and very rarely elsewhere in eastern North America, is unclear.',
+    description: 'The great blue heron (Ardea herodias) is a large wading bird in the heron family Ardeidae, common near the shores of open water and in wetlands over most of North America and Central America, as well as the Caribbean and the Galápagos Islands. It is a rare vagrant to coastal Spain, the Azores, and areas of far southern Europe. An all-white population found in south Florida and the Florida Keys is known as the great white heron. Debate exists about whether this represents a white color morph of the great blue heron, a subspecies of it, or an entirely separate species. The status of white individuals known to occur elsewhere in the Caribbean, and very rarely elsewhere in eastern North America, is unclear.',
     img_url: 'great-blue-heron.jpg'
 )
 
@@ -50,7 +50,7 @@ Bird.create(
     genus: 'Haematopus',
     species: 'H. palliatus',
     conservation: 'LC',
-    description: 'The American oystercatcher (Haematopus palliatus), occasionally called the American pied oystercatcher, is a member of family Haematopodidae. Originally called the "sea pie", it was renamed in 1731 when naturalist Mark Catesby observed the bird eating oysters.[2] The current population of American oystercatchers is estimated to be 43,000.[2] There are estimated to be 1,500 breeding pairs along the Atlantic and Gulf Coasts of the US.[3] The bird is marked by its black and white body and a long, thick orange beak.',
+    description: 'The American oystercatcher (Haematopus palliatus), occasionally called the American pied oystercatcher, is a member of family Haematopodidae. Originally called the "sea pie", it was renamed in 1731 when naturalist Mark Catesby observed the bird eating oysters. The current population of American oystercatchers is estimated to be 43,000. There are estimated to be 1,500 breeding pairs along the Atlantic and Gulf Coasts of the US. The bird is marked by its black and white body and a long, thick orange beak.',
     img_url: 'american-oystercatcher.jpg'
 )
 
@@ -74,7 +74,7 @@ Bird.create(
     genus: 'Piranga',
     species: 'P. rubra',
     conservation: 'LC',
-    description: 'The summer tanager (Piranga rubra) is a medium-sized American songbird. Formerly placed in the tanager family (Thraupidae), it and other members of its genus are now classified in the cardinal family (Cardinalidae).[2] The species''s plumage and vocalizations are similar to other members of the cardinal family.',
+    description: 'The summer tanager (Piranga rubra) is a medium-sized American songbird. Formerly placed in the tanager family (Thraupidae), it and other members of its genus are now classified in the cardinal family (Cardinalidae). The species''s plumage and vocalizations are similar to other members of the cardinal family.',
     img_url: 'summer-tanager.jpg'
 )
 
