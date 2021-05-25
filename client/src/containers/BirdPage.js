@@ -23,8 +23,8 @@ class BirdPage extends Component {
                 <BirdImage src={require('../bird-images/' + imgUrl).default} />
                 <p>Order: {order}</p>
                 <p>Family: {family}</p>
-                <p>Genus: {genus}</p>
-                <p>Species: {species}</p>
+                <p>Genus: <i>{genus}</i></p>
+                <p>Species: <i>{species}</i></p>
                 <Description>{description}</Description>
             </Wrapper>
         )
