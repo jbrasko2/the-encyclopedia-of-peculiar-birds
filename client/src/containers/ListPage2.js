@@ -3,28 +3,24 @@ import { connect } from 'react-redux'
 import styled from 'styled-components/macro'
 import { Link } from 'react-router-dom'
 
-const alphabet = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
-
 class ListPage2 extends Component {
     render() {
+
+        const birdLetters = this.props.birds.map(bird => bird.name[0])
+        const uniqueLetters = [...new Set(birdLetters)]
+
         return (
-            alphabet.map(letter => {
+            uniqueLetters.map(letter => {
                 return (
                     <Wrapper>
-                        {this.props.birds.map(bird => {
-                            if (bird.name.startsWith(letter)) {
-                                return (
-                                    <h1>{letter}</h1>
-                                )
-                            } else {
-                                return
-                            }
-                        })}
+                        <h1>{letter}</h1>
                         <ul>
                             {this.props.birds.map(bird => {
                                 if (bird.name.startsWith(letter)) {
                                     return (
-                                        <li>{bird.name}</li>
+                                        <Link to={"/birds/" + bird.id}>
+                                            <li>{bird.name}</li>
+                                        </Link>
                                     )
                                 } else {
                                     return
