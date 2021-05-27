@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { setSelectedBird, unsetBird } from '../redux/actionCreators'
 import styled from 'styled-components/macro'
+import { FadeInUp, FadeIn } from 'animate-css-styled-components'
 
 class BirdPage extends Component {
 
@@ -18,14 +19,24 @@ class BirdPage extends Component {
         const { id, name, scientificName, order, family, genus, species, conservation, description, imgUrl } = this.props
         return (
             <Wrapper>
-                <Name>{name}</Name>
-                <Scientific>{scientificName}</Scientific>
-                <BirdImage src={require('../bird-images/' + imgUrl).default} />
-                <p>Order: {order}</p>
-                <p>Family: {family}</p>
-                <p>Genus: <i>{genus}</i></p>
-                <p>Species: <i>{species}</i></p>
-                <Description>{description}</Description>
+                <FadeInUp>
+                    <Name>{name}</Name>
+                </FadeInUp>
+                <FadeInUp delay="0.25s">
+                    <Scientific>{scientificName}</Scientific>
+                </FadeInUp>
+                <FadeIn delay="0.5s" duration="2s">
+                    <BirdImage src={require('../bird-images/' + imgUrl).default} />
+                </FadeIn>
+                <FadeInUp delay="1s">
+                    <p>Order: {order}</p>
+                    <p>Family: {family}</p>
+                    <p>Genus: <i>{genus}</i></p>
+                    <p>Species: <i>{species}</i></p>
+                </FadeInUp>
+                <FadeInUp delay="1.25s">
+                    <Description>{description}</Description>
+                </FadeInUp>
             </Wrapper>
         )
     }

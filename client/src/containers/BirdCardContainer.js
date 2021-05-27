@@ -3,16 +3,20 @@ import { connect } from 'react-redux'
 import BirdCard from '../components/BirdCard'
 import SearchBar from '../components/SearchBar'
 import styled from 'styled-components/macro'
+import { FadeIn } from 'animate-css-styled-components'
+
 
 class BirdCardContainer extends Component {
     
     renderPage = () => {
         return (
             <>
+                <FadeIn delay=".25s" duration="2s">
                 <SearchBar />
                 <Wrapper>
                     {this.props.birds.map(bird => <BirdCard key={bird.id} {...bird} />)}
                 </Wrapper>
+                </FadeIn>
             </>
         )
     }
