@@ -19,11 +19,10 @@ const BirdCard = props => {
 }
 
 const Wrapper = styled.div`
-    display: inline-block;
     position: relative;
-    height: 700px;
-    width: 450px;
-    margin: 16px;
+    height: 500px;
+    width: 300px;
+    margin: 32px;
     padding: 16px;
     color: black;
     border-radius: 8px;

@@ -25,6 +25,10 @@ class BirdCardContainer extends Component {
 }
 
 const Wrapper = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 32px 16px;
 `
 
 const mapStateToProps = state => ({
