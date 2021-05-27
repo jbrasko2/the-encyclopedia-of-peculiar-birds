@@ -5,7 +5,7 @@ import { getBirds } from './redux/actionCreators'
 import { connect } from 'react-redux'
 import BirdCardContainer from './containers/BirdCardContainer'
 import BirdPage from './containers/BirdPage'
-import ListPage from './containers/ListPage'
+import ListPage2 from './containers/ListPage2'
 import NavBar from './containers/Navbar'
 import Footer from './containers/Footer'
 
@@ -23,7 +23,7 @@ class App extends Component {
           <Route exact path="/" component={BirdCardContainer} />
           <Route exact path="/birds" component={BirdCardContainer} />
           <Route exact path="/birds/:id" component={BirdPage} />
-          <Route exact path="/list" component={ListPage} />
+          <Route exact path="/list" component={ListPage2} />
         </Switch>
         <Footer />
       </>
