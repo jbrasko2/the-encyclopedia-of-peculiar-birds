@@ -16,7 +16,6 @@ const Wrapper = styled.div`
 `
 const ImageCredit = styled.div`
     padding: 24px;
-    font-size: 1.25rem;
     text-align: center;
 `
 
