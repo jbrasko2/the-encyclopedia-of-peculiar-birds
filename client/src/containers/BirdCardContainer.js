@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import BirdCard from '../components/BirdCard'
+import SearchBar from '../components/SearchBar'
 import styled from 'styled-components/macro'
 
 class BirdCardContainer extends Component {
@@ -8,6 +9,7 @@ class BirdCardContainer extends Component {
     renderPage = () => {
         return (
             <>
+                <SearchBar />
                 <Wrapper>
                     {this.props.birds.map(bird => <BirdCard key={bird.id} {...bird} />)}
                 </Wrapper>

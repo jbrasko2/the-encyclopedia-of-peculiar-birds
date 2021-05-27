@@ -27,6 +27,8 @@ const birdsReducer = (state = initialState, action) => {
             return {...state, selectedBird: action.payload}
         case "UNSET_BIRD":
             return {...state, selectedBird: nullBird}
+        case "SEARCH_BIRDS":
+            return {...state, birds: action.payload}
         default: return state
     }
 }
