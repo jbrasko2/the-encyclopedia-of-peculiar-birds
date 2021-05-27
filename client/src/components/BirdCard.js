@@ -26,7 +26,12 @@ const Wrapper = styled.div`
     padding: 16px;
     color: black;
     border-radius: 8px;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;    
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+    transition: 0.3s;
+
+    &:hover {
+        box-shadow: 4px 8px 16px 4px rgba(0,0,0,0.2);
+    }
     
     img {
         position: absolute;
