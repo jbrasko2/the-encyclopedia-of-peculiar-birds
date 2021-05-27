@@ -10,32 +10,50 @@ class ListPage2 extends Component {
         const uniqueLetters = [...new Set(birdLetters)]
 
         return (
-            uniqueLetters.map(letter => {
-                return (
-                    <Wrapper>
-                        <h1>{letter}</h1>
-                        <ul>
-                            {this.props.birds.map(bird => {
-                                if (bird.name.startsWith(letter)) {
-                                    return (
-                                        <Link to={"/birds/" + bird.id}>
-                                            <li>{bird.name}</li>
-                                        </Link>
-                                    )
-                                } else {
-                                    return
-                                }
-                            })}
-                        </ul>
-                    </Wrapper>
-                )
-            })
+            <Wrapper>
+                {uniqueLetters.map(letter => {
+                    return (
+                        <LetterWrapper>
+                            <h1>{letter}</h1>
+                            <ul>
+                                {this.props.birds.map(bird => {
+                                    if (bird.name.startsWith(letter)) {
+                                        return (
+                                            <BirdName>
+                                                <Link to={"/birds/" + bird.id} style={{ textDecoration: 'none' }}>{bird.name}</Link>
+                                            </BirdName>
+                                        )
+                                    } else {
+                                        return
+                                    }
+                                })}
+                            </ul>
+                        </LetterWrapper>
+                    )
+                })}
+                </Wrapper>
         )
     }
 }
 
 const Wrapper = styled.div`
+`
 
+const LetterWrapper = styled.div`
+    width: 25%;
+    margin-left: 16px;
+`
+
+const BirdName = styled.li`
+    margin-left: -16px;
+
+    a {
+        color: black;
+
+        &:hover {
+            color: red;
+        }
+    }
 `
 
 const mapStateToProps = state => ({
