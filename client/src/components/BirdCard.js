@@ -26,11 +26,11 @@ const Wrapper = styled.div`
     padding: 16px;
     color: black;
     border-radius: 8px;
-    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     transition: 0.3s;
 
     &:hover {
-        box-shadow: 4px 8px 16px 4px rgba(0,0,0,0.2);
+        box-shadow: 4px 8px 16px 4px rgba(0,0,0,0.22);
     }
     
     img {

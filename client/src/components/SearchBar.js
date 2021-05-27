@@ -27,6 +27,7 @@ class SearchBar extends Component {
 
 const Wrapper = styled.div`
     text-align: center;
+    margin-top: 32px;
 `
 
 const Submit = styled.input`
