@@ -5,6 +5,7 @@ export const getBirds = () => {
         dispatch({type: "START_BIRD_REQUEST"})
         fetch(API + '/birds')
         .then(res => res.json())
+        .then(birds => birds.sort((a, b) => (a.name > b.name) ? 1 : -1))
         .then(birdData => dispatch({
             type: "GET_BIRDS",
             payload: birdData
