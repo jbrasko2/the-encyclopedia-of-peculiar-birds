@@ -5,7 +5,7 @@ import { getBirds } from './redux/actionCreators'
 import { connect } from 'react-redux'
 import BirdCardContainer from './containers/BirdCardContainer'
 import BirdPage from './containers/BirdPage'
-import ListPage2 from './containers/ListPage2'
+import ListPage2 from './containers/ListPage'
 import NavBar from './containers/Navbar'
 import Footer from './containers/Footer'
 
