@@ -67,6 +67,7 @@ const BirdImage = styled.img`
 `
 
 const Description = styled.div`
+text-align: center;
     max-width: 800px;
     font-size: 1.25rem;
     margin: 12px;
