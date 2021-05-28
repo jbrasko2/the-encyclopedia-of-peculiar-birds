@@ -1,6 +1,6 @@
 {
   "name": "client",
-  "homepage": "https://jbrasko2.github.io/the-encyclopedia-of-peculiar-birds",
+  "homepage": "http://jbrasko2.github.io/the-encyclopedia-of-peculiar-birds",
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:3001",
