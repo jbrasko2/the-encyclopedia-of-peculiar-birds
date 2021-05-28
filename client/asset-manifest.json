@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/the-encyclopedia-of-peculiar-birds/static/css/main.aec603a4.chunk.css",
-    "main.js": "/the-encyclopedia-of-peculiar-birds/static/js/main.c3d20901.chunk.js",
-    "main.js.map": "/the-encyclopedia-of-peculiar-birds/static/js/main.c3d20901.chunk.js.map",
+    "main.js": "/the-encyclopedia-of-peculiar-birds/static/js/main.97a0ad3a.chunk.js",
+    "main.js.map": "/the-encyclopedia-of-peculiar-birds/static/js/main.97a0ad3a.chunk.js.map",
     "runtime-main.js": "/the-encyclopedia-of-peculiar-birds/static/js/runtime-main.0a6e118f.js",
     "runtime-main.js.map": "/the-encyclopedia-of-peculiar-birds/static/js/runtime-main.0a6e118f.js.map",
     "static/js/2.f8759a95.chunk.js": "/the-encyclopedia-of-peculiar-birds/static/js/2.f8759a95.chunk.js",
@@ -32,6 +32,6 @@
     "static/js/runtime-main.0a6e118f.js",
     "static/js/2.f8759a95.chunk.js",
     "static/css/main.aec603a4.chunk.css",
-    "static/js/main.c3d20901.chunk.js"
+    "static/js/main.97a0ad3a.chunk.js"
   ]
 }
