@@ -4,7 +4,7 @@ import BirdCard from '../components/BirdCard'
 import SearchBar from '../components/SearchBar'
 import styled from 'styled-components/macro'
 import { FadeIn } from 'animate-css-styled-components'
-
+import Footer from '../components/Footer'
 
 class BirdCardContainer extends Component {
     
@@ -17,6 +17,7 @@ class BirdCardContainer extends Component {
                     {this.props.birds.map(bird => <BirdCard key={bird.id} {...bird} />)}
                 </Wrapper>
                 </FadeIn>
+                <Footer />
             </>
         )
     }

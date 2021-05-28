@@ -3,6 +3,7 @@ import { connect } from 'react-redux'
 import { setSelectedBird, unsetBird } from '../redux/actionCreators'
 import styled from 'styled-components/macro'
 import { FadeInUp, FadeIn } from 'animate-css-styled-components'
+import Footer from '../components/Footer'
 
 class BirdPage extends Component {
 
@@ -37,11 +38,12 @@ class BirdPage extends Component {
                 <FadeInUp delay="1.25s">
                     <Description>{description}</Description>
                 </FadeInUp>
+                <Footer />
             </Wrapper>
         )
     }
 
-    renderSpinner = () => <div className="loader">Spinner</div>
+    renderSpinner = () => <div className="loader"></div>
 
     render() {
         return (
