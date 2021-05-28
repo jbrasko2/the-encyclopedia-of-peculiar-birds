@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/the-encyclopedia-of-peculiar-birds/static/css/main.aec603a4.chunk.css",
-    "main.js": "/the-encyclopedia-of-peculiar-birds/static/js/main.f812e93d.chunk.js",
-    "main.js.map": "/the-encyclopedia-of-peculiar-birds/static/js/main.f812e93d.chunk.js.map",
+    "main.js": "/the-encyclopedia-of-peculiar-birds/static/js/main.97a0ad3a.chunk.js",
+    "main.js.map": "/the-encyclopedia-of-peculiar-birds/static/js/main.97a0ad3a.chunk.js.map",
     "runtime-main.js": "/the-encyclopedia-of-peculiar-birds/static/js/runtime-main.0a6e118f.js",
     "runtime-main.js.map": "/the-encyclopedia-of-peculiar-birds/static/js/runtime-main.0a6e118f.js.map",
-    "static/js/2.294775ab.chunk.js": "/the-encyclopedia-of-peculiar-birds/static/js/2.294775ab.chunk.js",
-    "static/js/2.294775ab.chunk.js.map": "/the-encyclopedia-of-peculiar-birds/static/js/2.294775ab.chunk.js.map",
+    "static/js/2.f8759a95.chunk.js": "/the-encyclopedia-of-peculiar-birds/static/js/2.f8759a95.chunk.js",
+    "static/js/2.f8759a95.chunk.js.map": "/the-encyclopedia-of-peculiar-birds/static/js/2.f8759a95.chunk.js.map",
     "static/js/3.46865104.chunk.js": "/the-encyclopedia-of-peculiar-birds/static/js/3.46865104.chunk.js",
     "static/js/3.46865104.chunk.js.map": "/the-encyclopedia-of-peculiar-birds/static/js/3.46865104.chunk.js.map",
     "index.html": "/the-encyclopedia-of-peculiar-birds/index.html",
     "static/css/main.aec603a4.chunk.css.map": "/the-encyclopedia-of-peculiar-birds/static/css/main.aec603a4.chunk.css.map",
-    "static/js/2.294775ab.chunk.js.LICENSE.txt": "/the-encyclopedia-of-peculiar-birds/static/js/2.294775ab.chunk.js.LICENSE.txt",
+    "static/js/2.f8759a95.chunk.js.LICENSE.txt": "/the-encyclopedia-of-peculiar-birds/static/js/2.f8759a95.chunk.js.LICENSE.txt",
     "static/media/american-flamingo.jpg": "/the-encyclopedia-of-peculiar-birds/static/media/american-flamingo.b70f3da2.jpg",
     "static/media/american-oystercatcher.jpg": "/the-encyclopedia-of-peculiar-birds/static/media/american-oystercatcher.fb793adf.jpg",
     "static/media/american-white-pelican.jpg": "/the-encyclopedia-of-peculiar-birds/static/media/american-white-pelican.2ee7efb7.jpg",
@@ -30,8 +30,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.0a6e118f.js",
-    "static/js/2.294775ab.chunk.js",
+    "static/js/2.f8759a95.chunk.js",
     "static/css/main.aec603a4.chunk.css",
-    "static/js/main.f812e93d.chunk.js"
+    "static/js/main.97a0ad3a.chunk.js"
   ]
 }
