@@ -1,5 +1,6 @@
 {
   "name": "client",
+  "homepage": "https://jbrasko2.github.io/the-encyclopedia-of-peculiar-birds",
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:3001",
@@ -9,6 +10,7 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "animate-css-styled-components": "^1.0.2",
+    "gh-pages": "^3.2.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-redux": "^7.2.4",
@@ -21,6 +23,8 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
