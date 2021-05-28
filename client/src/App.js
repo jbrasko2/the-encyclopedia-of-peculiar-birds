@@ -20,10 +20,10 @@ class App extends Component {
       <>
         <NavBar />
         <Switch>
-          <Route exact path="/the-encyclopedia-of-peculiar-birds" component={BirdCardContainer} />
-          <Route exact path="/the-encyclopedia-of-peculiar-birds/birds" component={BirdCardContainer} />
-          <Route exact path="/the-encyclopedia-of-peculiar-birds/birds/:id" component={BirdPage} />
-          <Route exact path="/the-encyclopedia-of-peculiar-birds/list" component={ListPage2} />
+          <Route exact path="/" component={BirdCardContainer} />
+          <Route exact path="/birds" component={BirdCardContainer} />
+          <Route exact path="/birds/:id" component={BirdPage} />
+          <Route exact path="/list" component={ListPage2} />
         </Switch>
         <Footer />
       </>
