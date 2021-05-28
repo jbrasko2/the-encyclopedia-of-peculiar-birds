@@ -1,4 +1,4 @@
-const API = 'http://localhost:3000/'
+const API = 'https://peculiar-birds-api.herokuapp.com'
 
 export const getBirds = () => {
     return dispatch => {
