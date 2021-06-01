@@ -37,9 +37,12 @@ class ListPage2 extends Component {
 }
 
 const Wrapper = styled.div`
+    height: 75%;
 `
 
 const LetterWrapper = styled.div`
+    display: inline-block;
+    text-align: center;
     width: 25%;
     margin-left: 16px;
 `
