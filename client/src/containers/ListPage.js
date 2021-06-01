@@ -40,15 +40,12 @@ const Wrapper = styled.div`
 `
 
 const LetterWrapper = styled.div`
-    display: inline-block;
-    text-align: center;
     width: 25%;
     margin-left: 16px;
 `
 
 const BirdName = styled.li`
     margin-left: -16px;
-    list-style-type: none;
 
     a {
         color: black;
