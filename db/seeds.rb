@@ -243,7 +243,7 @@ Bird.create(
     species: 'D. pileatus',
     conservation: 'LC',
     description: 'The pileated woodpecker (Dryocopus pileatus) is a large, mostly black woodpecker native to North America. An insectivore, it inhabits deciduous forests in eastern North America, the Great Lakes, the boreal forests of Canada, and parts of the Pacific Coast. It is the second largest woodpecker species in the U.S., behind the critically endangered or possibly extinct ivory-billed woodpecker. "Pileated" refers to the bird''s prominent red crest, from the Latin pileatus meaning "capped".',
-    img_url: 'pileated-woodpeacker.jpg'
+    img_url: 'pileated-woodpecker.jpg'
 )
 
 Bird.create(
