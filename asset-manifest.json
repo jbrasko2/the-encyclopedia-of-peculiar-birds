@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/the-encyclopedia-of-peculiar-birds/static/css/main.aec603a4.chunk.css",
-    "main.js": "/the-encyclopedia-of-peculiar-birds/static/js/main.56769849.chunk.js",
-    "main.js.map": "/the-encyclopedia-of-peculiar-birds/static/js/main.56769849.chunk.js.map",
+    "main.js": "/the-encyclopedia-of-peculiar-birds/static/js/main.ee475023.chunk.js",
+    "main.js.map": "/the-encyclopedia-of-peculiar-birds/static/js/main.ee475023.chunk.js.map",
     "runtime-main.js": "/the-encyclopedia-of-peculiar-birds/static/js/runtime-main.46cb84a1.js",
     "runtime-main.js.map": "/the-encyclopedia-of-peculiar-birds/static/js/runtime-main.46cb84a1.js.map",
     "static/js/2.909f6722.chunk.js": "/the-encyclopedia-of-peculiar-birds/static/js/2.909f6722.chunk.js",
@@ -21,7 +21,7 @@
     "static/media/great-blue-heron.jpg": "/the-encyclopedia-of-peculiar-birds/static/media/great-blue-heron.0d53ab4c.jpg",
     "static/media/green-heron.jpg": "/the-encyclopedia-of-peculiar-birds/static/media/green-heron.89e20888.jpg",
     "static/media/long-billed-curlew.jpg": "/the-encyclopedia-of-peculiar-birds/static/media/long-billed-curlew.1788b8bb.jpg",
-    "static/media/mounatin-quail.jpg": "/the-encyclopedia-of-peculiar-birds/static/media/mounatin-quail.9a4fc7a0.jpg",
+    "static/media/mountain-quail.jpg": "/the-encyclopedia-of-peculiar-birds/static/media/mountain-quail.9a4fc7a0.jpg",
     "static/media/osprey.jpg": "/the-encyclopedia-of-peculiar-birds/static/media/osprey.09f91f11.jpg",
     "static/media/passenger-pigeon.jpg": "/the-encyclopedia-of-peculiar-birds/static/media/passenger-pigeon.ade37028.jpg",
     "static/media/pileated-woodpecker.jpg": "/the-encyclopedia-of-peculiar-birds/static/media/pileated-woodpecker.1e570f78.jpg",
@@ -38,6 +38,6 @@
     "static/js/runtime-main.46cb84a1.js",
     "static/js/2.909f6722.chunk.js",
     "static/css/main.aec603a4.chunk.css",
-    "static/js/main.56769849.chunk.js"
+    "static/js/main.ee475023.chunk.js"
   ]
 }
