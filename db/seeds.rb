@@ -185,3 +185,75 @@ Bird.create(
     description: 'The osprey or more specifically the western osprey (Pandion haliaetus) — also called sea hawk, river hawk, and fish hawk — is a diurnal, fish-eating bird of prey with a cosmopolitan range. It is a large raptor, reaching more than 60 cm (24 in) in length and 180 cm (71 in) across the wings. It is brown on the upperparts and predominantly greyish on the head and underparts. The osprey tolerates a wide variety of habitats, nesting in any location near a body of water providing an adequate food supply. It is found on all continents except Antarctica, although in South America it occurs only as a non-breeding migrant. As its other common names suggest, the osprey''s diet consists almost exclusively of fish. It possesses specialised physical characteristics and exhibits unique behaviour to assist in hunting and catching prey. As a result of these unique characteristics, it has been given its own taxonomic genus, Pandion and family, Pandionidae. Three subspecies are usually recognized; one of the former subspecies, cristatus, has recently been given full species status and is referred to as the eastern osprey.',
     img_url: 'osprey.jpg'
 )
+
+Bird.create(
+    name: 'Zenaida Dove',
+    scientific_name: 'Zenaida aurita',
+    order: 'Columbiformes',
+    family: 'Columbidae',
+    genus: 'Zenaida',
+    species: 'Z. aurita',
+    conservation: 'LC',
+    description: 'The zenaida dove (Zenaida aurita) is a member of the bird family Columbidae, which includes doves and pigeons. It is the national bird of Anguilla, where it is locally referred to as "turtle dove". The Zenaida dove is approximately 28–30 cm (11–12 in) in length. It looks very similar to the mourning dove, but is smaller in size, has a shorter, more rounded tail, and is a bit more darkly colored. It is also distinguished from the mourning dove by showing white on the trailing edge of its wings while in flight. The mourning dove does not have the white trailing edge. It lays two white eggs on a flimsy platform, built on a tree or shrub. It also nests in rock crevices, and on grassy vegetation if no predators are present. It has been recorded that some birds have up to 4 broods per year. Eggs take approximately two weeks to hatch, and the young chicks typically fledge after only two weeks in the nest. Parents feed the young pigeon''s milk, a nutrient rich substance regurgitated from its crop.',
+    img_url: 'zenaida-dove.jpg'
+)
+
+Bird.create(
+    name: 'Swallow-Tailed Kite',
+    scientific_name: 'Elanoides forficatus',
+    order: 'Accipitriformes',
+    family: 'Accipitridae',
+    genus: 'Elanoides',
+    species: 'E. forficatus',
+    conservation: 'LC',
+    description: 'The swallow-tailed kite (Elanoides forficatus) is a pernine raptor which breeds from the southeastern United States to eastern Peru and northern Argentina. It is the only species in the genus Elanoides. Most North and Central American breeders winter in South America where the species is resident year round. The swallow-tailed kite was first described as the "swallow-tail hawk" and "accipiter cauda furcata" (forked-tail hawk) by the English naturalist Mark Catesby in 1731.[2] It was given the binomial scientific name Falco forficatus by Carl Linnaeus in the 10th edition of Systema Naturae, published in 1758;[3] he changed this to Falco furcatus in the 12th edition of 1766.[4] The latter spelling was used widely during the 18th and 19th centuries, but the original spelling has precedence. The genus Elanoides was introduced by the French ornithologist Louis Jean Pierre Vieillot in 1818.[5][6] The name is from Ancient Greek elanos for "kite" and -oides for "resembling". The swallow-tailed kite is largely associated with large tracts of wetland forests which accommodates the birds nesting habits. Loblolly pines are the most prevalent choice for building nests but bald cypress (Taxodium distichum) are also used when the pines are unavailable. The major requirement of these nesting sites are food availability and tree height. Nesting locations are often found in trees as high as 100 ft (30 m). Historic ranges in the United States covered the majority of the Southern states and much of the Midwest (as far north as Minnesota). Aside from the US, it resides in many areas throughout Central and South America. Habitat degradation and changes in wetland hydrology have caused the range to shrink in the US to just coastal regions of the southeastern and southwestern US, roughly an 80% decline in population. Swallow-tailed kites are considered migratory raptors and during the spring months often move from areas in Central and South America to breed. Roughly 3% of the worlds population breed in the United States.[11] Traveling thousands of miles these birds move towards the most suitable nesting habitat found within coastal wetlands between the Americas. Satellite-telemetry has allowed researchers to track movements of individual birds over the years and has yielded data that demonstrates some migration journeys longer than 10,000 mi (16,000 km). Land located within migration routes is thought to be another concern for the kites, as deforestation and habitat degradation in Central and South Americas can have adverse affects as the birds move to breed. The birds are considered one of the most graceful fliers seen in America and often spend the majority of their lives scouring high tree tops for lizards, small mammals, and insects. The morphology of the swallow-tailed kite''s wing and tail structure allows the bird to glide effortlessly for long distances.',
+    img_url: 'swallow-tailed-kite.jpg'
+)
+
+Bird.create(
+    name: 'Razorbill',
+    scientific_name: 'Alca torda',
+    order: 'Charadriiformes',
+    family: 'Alcidae',
+    genus: 'Alca',
+    species: 'A. torda',
+    conservation: 'NT',
+    description: 'The razorbill, razor-billed auk,[3] or lesser auk[4] (Alca torda) is a colonial seabird in the monotypic genus Alca of the family Alcidae, the auks. It is the closest living relative of the extinct great auk (Pinguinis impennis).[5] Wild populations live in the subarctic waters of the Atlantic Ocean. Razorbills are primarily black with a white underside. The male and female are identical in plumage; however, males are generally larger than females. This agile bird, which is capable of both flight and diving, has a predominantly aquatic lifestyle and only comes to land in order to breed. It is monogamous, choosing one partner for life. Females lay one egg per year. Razorbills nest along coastal cliffs in enclosed or slightly exposed crevices. The parents spend equal amounts of time incubating, and once the chick has hatched, they take turns foraging for their young. In 1918, the razorbill was protected in the United States by the Migratory Bird Treaty Act. Presently, the major threat to the population is the destruction of breeding sites.',
+    img_url: 'razorbill.jpg'
+)
+
+Bird.create(
+    name: 'Mountain Quail',
+    scientific_name: 'Oreortyx pictus',
+    order: 'Galliformes',
+    family: 'Odontophoridae',
+    genus: 'Oreortyx',
+    species: 'O. pictus',
+    conservation: 'LC',
+    description: 'The mountain quail (Oreortyx pictus) is a small ground-dwelling bird in the New World quail family. This species is the only one in the genus Oreortyx, which is sometimes included in Callipepla. This is not appropriate, however, as the mountain quail''s ancestors have diverged from other New World quails earlier than the bobwhites, no later than 6 mya.',
+    img_url: 'mountain-quail.jpg'
+)
+
+Bird.create(
+    name: 'Pileated Woodpecker',
+    scientific_name: 'Dryocopus pileatus',
+    order: 'Piciformes',
+    family: 'Picidae',
+    genus: 'Dryocopus',
+    species: 'D. pileatus',
+    conservation: 'LC',
+    description: 'The pileated woodpecker (Dryocopus pileatus) is a large, mostly black woodpecker native to North America. An insectivore, it inhabits deciduous forests in eastern North America, the Great Lakes, the boreal forests of Canada, and parts of the Pacific Coast. It is the second largest woodpecker species in the U.S., behind the critically endangered or possibly extinct ivory-billed woodpecker. "Pileated" refers to the bird''s prominent red crest, from the Latin pileatus meaning "capped".',
+    img_url: 'pileated-woodpeacker.jpg'
+)
+
+Bird.create(
+    name: 'Passenger Pigeon',
+    scientific_name: 'Ectopistes migratorius',
+    order: 'Columbiformes',
+    family: 'Columbidae',
+    genus: 'Ectopistes',
+    species: 'E. migratorius',
+    conservation: 'EX',
+    description: 'The passenger pigeon or wild pigeon (Ectopistes migratorius) is an extinct species of pigeon that was endemic to North America. Its common name is derived from the French word passager, meaning "passing by", due to the migratory habits of the species. The scientific name also refers to its migratory characteristics. The morphologically similar mourning dove (Zenaida macroura) was long thought to be its closest relative, and the two were at times confused, but genetic analysis has shown that the genus Patagioenas is more closely related to it than the Zenaida doves. The passenger pigeon was sexually dimorphic in size and coloration. The male was 390 to 410 mm (15.4 to 16.1 in) in length, mainly gray on the upperparts, lighter on the underparts, with iridescent bronze feathers on the neck, and black spots on the wings. The female was 380 to 400 mm (15.0 to 15.7 in), and was duller and browner than the male overall. The juvenile was similar to the female, but without iridescence. It mainly inhabited the deciduous forests of eastern North America and was also recorded elsewhere, but bred primarily around the Great Lakes. The pigeon migrated in enormous flocks, constantly searching for food, shelter, and breeding grounds, and was once the most abundant bird in North America, numbering around 3 billion, and possibly up to 5 billion. A very fast flyer, the passenger pigeon could reach a speed of 100 km/h (62 mph). The bird fed mainly on mast, and also fruits and invertebrates. It practiced communal roosting and communal breeding, and its extreme gregariousness may be linked with searching for food and predator satiation. Passenger pigeons were hunted by Native Americans, but hunting intensified after the arrival of Europeans, particularly in the 19th century. Pigeon meat was commercialized as cheap food, resulting in hunting on a massive scale for many decades. There were several other factors contributing to the decline and subsequent extinction of the species, including shrinking of the large breeding populations necessary for preservation of the species and widespread deforestation, which destroyed its habitat. A slow decline between about 1800 and 1870 was followed by a rapid decline between 1870 and 1890. The last confirmed wild bird is thought to have been shot in 1901. The last captive birds were divided in three groups around the turn of the 20th century, some of which were photographed alive. Martha, thought to be the last passenger pigeon, died on September 1, 1914, at the Cincinnati Zoo. The eradication of the species is a notable example of anthropogenic extinction.',
+    img_url: 'passenger-pigeon.jpg'
+)

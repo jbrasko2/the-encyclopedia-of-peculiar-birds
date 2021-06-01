@@ -37,7 +37,6 @@ class ListPage2 extends Component {
 }
 
 const Wrapper = styled.div`
-    height: 75%;
 `
 
 const LetterWrapper = styled.div`
@@ -49,6 +48,7 @@ const LetterWrapper = styled.div`
 
 const BirdName = styled.li`
     margin-left: -16px;
+    list-style-type: none;
 
     a {
         color: black;
