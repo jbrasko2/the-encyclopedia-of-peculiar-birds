@@ -24,7 +24,6 @@ const Wrapper = styled.div`
     width: 300px;
     margin: 32px;
     padding: 16px;
-    color: black;
     border-radius: 8px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     transition: 0.3s;
@@ -40,6 +39,10 @@ const Wrapper = styled.div`
         display: block;
         width: 100%;
         margin: auto;
+    }
+
+    a {
+        color: inherit;
     }
 `
 const NameWrapper = styled.div`
