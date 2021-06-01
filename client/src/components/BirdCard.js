@@ -6,15 +6,15 @@ const BirdCard = props => {
     const { id, name, scientificName, imgUrl } = props
 
     return (
-        <Link to={'/birds/' + id}>
-            <Wrapper>
+        <Wrapper>
+            <Link to={'/birds/' + id}>
                 <img src={require('../bird-images/' + imgUrl).default} />
                 <NameWrapper>
                     <h2>{name}</h2>
                     <h4>({scientificName})</h4>
                 </NameWrapper>
-            </Wrapper>
-        </Link>
+            </Link>
+        </Wrapper>
     )
 }
 
