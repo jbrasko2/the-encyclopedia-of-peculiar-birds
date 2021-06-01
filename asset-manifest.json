@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/the-encyclopedia-of-peculiar-birds/static/css/main.aec603a4.chunk.css",
-    "main.js": "/the-encyclopedia-of-peculiar-birds/static/js/main.13c3c026.chunk.js",
-    "main.js.map": "/the-encyclopedia-of-peculiar-birds/static/js/main.13c3c026.chunk.js.map",
-    "runtime-main.js": "/the-encyclopedia-of-peculiar-birds/static/js/runtime-main.0a6e118f.js",
-    "runtime-main.js.map": "/the-encyclopedia-of-peculiar-birds/static/js/runtime-main.0a6e118f.js.map",
-    "static/js/2.e357c14a.chunk.js": "/the-encyclopedia-of-peculiar-birds/static/js/2.e357c14a.chunk.js",
-    "static/js/2.e357c14a.chunk.js.map": "/the-encyclopedia-of-peculiar-birds/static/js/2.e357c14a.chunk.js.map",
-    "static/js/3.46865104.chunk.js": "/the-encyclopedia-of-peculiar-birds/static/js/3.46865104.chunk.js",
-    "static/js/3.46865104.chunk.js.map": "/the-encyclopedia-of-peculiar-birds/static/js/3.46865104.chunk.js.map",
+    "main.js": "/the-encyclopedia-of-peculiar-birds/static/js/main.56769849.chunk.js",
+    "main.js.map": "/the-encyclopedia-of-peculiar-birds/static/js/main.56769849.chunk.js.map",
+    "runtime-main.js": "/the-encyclopedia-of-peculiar-birds/static/js/runtime-main.46cb84a1.js",
+    "runtime-main.js.map": "/the-encyclopedia-of-peculiar-birds/static/js/runtime-main.46cb84a1.js.map",
+    "static/js/2.909f6722.chunk.js": "/the-encyclopedia-of-peculiar-birds/static/js/2.909f6722.chunk.js",
+    "static/js/2.909f6722.chunk.js.map": "/the-encyclopedia-of-peculiar-birds/static/js/2.909f6722.chunk.js.map",
+    "static/js/3.a5f83bfc.chunk.js": "/the-encyclopedia-of-peculiar-birds/static/js/3.a5f83bfc.chunk.js",
+    "static/js/3.a5f83bfc.chunk.js.map": "/the-encyclopedia-of-peculiar-birds/static/js/3.a5f83bfc.chunk.js.map",
     "index.html": "/the-encyclopedia-of-peculiar-birds/index.html",
     "static/css/main.aec603a4.chunk.css.map": "/the-encyclopedia-of-peculiar-birds/static/css/main.aec603a4.chunk.css.map",
-    "static/js/2.e357c14a.chunk.js.LICENSE.txt": "/the-encyclopedia-of-peculiar-birds/static/js/2.e357c14a.chunk.js.LICENSE.txt",
+    "static/js/2.909f6722.chunk.js.LICENSE.txt": "/the-encyclopedia-of-peculiar-birds/static/js/2.909f6722.chunk.js.LICENSE.txt",
     "static/media/american-flamingo.jpg": "/the-encyclopedia-of-peculiar-birds/static/media/american-flamingo.b70f3da2.jpg",
     "static/media/american-oystercatcher.jpg": "/the-encyclopedia-of-peculiar-birds/static/media/american-oystercatcher.fb793adf.jpg",
     "static/media/american-white-pelican.jpg": "/the-encyclopedia-of-peculiar-birds/static/media/american-white-pelican.2ee7efb7.jpg",
@@ -21,17 +21,23 @@
     "static/media/great-blue-heron.jpg": "/the-encyclopedia-of-peculiar-birds/static/media/great-blue-heron.0d53ab4c.jpg",
     "static/media/green-heron.jpg": "/the-encyclopedia-of-peculiar-birds/static/media/green-heron.89e20888.jpg",
     "static/media/long-billed-curlew.jpg": "/the-encyclopedia-of-peculiar-birds/static/media/long-billed-curlew.1788b8bb.jpg",
+    "static/media/mounatin-quail.jpg": "/the-encyclopedia-of-peculiar-birds/static/media/mounatin-quail.9a4fc7a0.jpg",
     "static/media/osprey.jpg": "/the-encyclopedia-of-peculiar-birds/static/media/osprey.09f91f11.jpg",
+    "static/media/passenger-pigeon.jpg": "/the-encyclopedia-of-peculiar-birds/static/media/passenger-pigeon.ade37028.jpg",
+    "static/media/pileated-woodpecker.jpg": "/the-encyclopedia-of-peculiar-birds/static/media/pileated-woodpecker.1e570f78.jpg",
     "static/media/puffin.jpg": "/the-encyclopedia-of-peculiar-birds/static/media/puffin.82c22679.jpg",
+    "static/media/razorbill.jpg": "/the-encyclopedia-of-peculiar-birds/static/media/razorbill.81304d43.jpg",
     "static/media/summer-tanager.jpg": "/the-encyclopedia-of-peculiar-birds/static/media/summer-tanager.5a703b34.jpg",
+    "static/media/swallow-tailed-kite.jpg": "/the-encyclopedia-of-peculiar-birds/static/media/swallow-tailed-kite.5f5b2632.jpg",
     "static/media/three-toed-woodpecker.jpg": "/the-encyclopedia-of-peculiar-birds/static/media/three-toed-woodpecker.9e7134d2.jpg",
     "static/media/whip-poor-will.jpg": "/the-encyclopedia-of-peculiar-birds/static/media/whip-poor-will.f1421fb8.jpg",
-    "static/media/willet.jpg": "/the-encyclopedia-of-peculiar-birds/static/media/willet.6bd9821e.jpg"
+    "static/media/willet.jpg": "/the-encyclopedia-of-peculiar-birds/static/media/willet.6bd9821e.jpg",
+    "static/media/zenaida-dove.jpg": "/the-encyclopedia-of-peculiar-birds/static/media/zenaida-dove.f020ec92.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0a6e118f.js",
-    "static/js/2.e357c14a.chunk.js",
+    "static/js/runtime-main.46cb84a1.js",
+    "static/js/2.909f6722.chunk.js",
     "static/css/main.aec603a4.chunk.css",
-    "static/js/main.13c3c026.chunk.js"
+    "static/js/main.56769849.chunk.js"
   ]
 }
