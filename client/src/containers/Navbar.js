@@ -8,34 +8,52 @@ const Navbar = () => {
     return (
         <NavWrapper>
             <Link to='/'>
-                <NavButton>
+                <HomeButton>
                     <Logo src={logo} />
                     <Title />
-                </NavButton>
+                </HomeButton>
             </Link>
             <Link to='/list'>
-                <NavButton>List</NavButton>
+                <ListButton>List</ListButton>
             </Link>
         </NavWrapper>
     )
 }
 
 const NavWrapper = styled.div`
-    border-bottom: 1px solid black;
     display: flex;
     justify-content: space-between;
-    padding-bottom: 12px;
+    align-items: center;
+
+    a {
+        text-decoration: none;
+    }
 `
-const NavButton = styled.button`
-    display: inline-block;
+const HomeButton = styled.button`
+    display: flex;
+    align-items: center;
     font-family: inherit;
     font-size: 100%;
     background: white;
-    padding: 0;
+    padding: 12px;
     border: none;
 
     &:hover {
         cursor: pointer;
+        box-shadow: 3px 3px 3px black;
+    }
+`
+
+const ListButton = styled.button`
+    font-family: inherit;
+    font-size: 1.5rem;
+    background: white;
+    border: none;
+    height: 100%;
+    padding: 12px;
+
+    &:hover {
+        box-shadow: 3px 3px 3px black;
     }
 `
 
