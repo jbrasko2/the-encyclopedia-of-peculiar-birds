@@ -24,6 +24,7 @@ const NavWrapper = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid lightgray;
 
     a {
         text-decoration: none;
@@ -33,27 +34,33 @@ const HomeButton = styled.button`
     display: flex;
     align-items: center;
     font-family: inherit;
+    margin-left: 16px;
     font-size: 100%;
     background: white;
     padding: 12px;
     border: none;
+    transition: 0.5s;
 
     &:hover {
         cursor: pointer;
-        box-shadow: 3px 3px 3px black;
+        background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+        color: transparent;
     }
 `
 
 const ListButton = styled.button`
     font-family: inherit;
     font-size: 1.5rem;
+    margin-right: 16px;
     background: white;
     border: none;
-    height: 100%;
     padding: 12px;
+    transition: 0.5s;
 
     &:hover {
-        box-shadow: 3px 3px 3px black;
+        cursor: pointer;
+        background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+        color: transparent;
     }
 `
 

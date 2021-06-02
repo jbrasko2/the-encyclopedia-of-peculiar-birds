@@ -49,9 +49,11 @@ const BirdName = styled.li`
 
     a {
         color: black;
+        transition: 0.5s;
 
         &:hover {
-            color: red;
+            background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+            color: transparent;
         }
     }
 `
