@@ -43,7 +43,7 @@ const HomeButton = styled.button`
 
     &:hover {
         cursor: pointer;
-        background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+        background-image: linear-gradient(to left, violet, indigo, blue, green, yellowgreen, orange, red);   -webkit-background-clip: text;
         color: transparent;
     }
 `
@@ -59,7 +59,7 @@ const ListButton = styled.button`
 
     &:hover {
         cursor: pointer;
-        background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+        background-image: linear-gradient(to left, violet, indigo, blue, green, yellowgreen, orange, red);   -webkit-background-clip: text;
         color: transparent;
     }
 `
