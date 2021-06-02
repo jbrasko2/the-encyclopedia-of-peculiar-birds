@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/the-encyclopedia-of-peculiar-birds/static/css/main.aec603a4.chunk.css",
-    "main.js": "/the-encyclopedia-of-peculiar-birds/static/js/main.7a9ded07.chunk.js",
-    "main.js.map": "/the-encyclopedia-of-peculiar-birds/static/js/main.7a9ded07.chunk.js.map",
-    "runtime-main.js": "/the-encyclopedia-of-peculiar-birds/static/js/runtime-main.46cb84a1.js",
-    "runtime-main.js.map": "/the-encyclopedia-of-peculiar-birds/static/js/runtime-main.46cb84a1.js.map",
-    "static/js/2.909f6722.chunk.js": "/the-encyclopedia-of-peculiar-birds/static/js/2.909f6722.chunk.js",
-    "static/js/2.909f6722.chunk.js.map": "/the-encyclopedia-of-peculiar-birds/static/js/2.909f6722.chunk.js.map",
-    "static/js/3.a5f83bfc.chunk.js": "/the-encyclopedia-of-peculiar-birds/static/js/3.a5f83bfc.chunk.js",
-    "static/js/3.a5f83bfc.chunk.js.map": "/the-encyclopedia-of-peculiar-birds/static/js/3.a5f83bfc.chunk.js.map",
+    "main.css": "/the-encyclopedia-of-peculiar-birds/static/css/main.67255253.chunk.css",
+    "main.js": "/the-encyclopedia-of-peculiar-birds/static/js/main.596d59f3.chunk.js",
+    "main.js.map": "/the-encyclopedia-of-peculiar-birds/static/js/main.596d59f3.chunk.js.map",
+    "runtime-main.js": "/the-encyclopedia-of-peculiar-birds/static/js/runtime-main.f88e584b.js",
+    "runtime-main.js.map": "/the-encyclopedia-of-peculiar-birds/static/js/runtime-main.f88e584b.js.map",
+    "static/js/2.6ed4d03a.chunk.js": "/the-encyclopedia-of-peculiar-birds/static/js/2.6ed4d03a.chunk.js",
+    "static/js/2.6ed4d03a.chunk.js.map": "/the-encyclopedia-of-peculiar-birds/static/js/2.6ed4d03a.chunk.js.map",
+    "static/js/3.dc4276bd.chunk.js": "/the-encyclopedia-of-peculiar-birds/static/js/3.dc4276bd.chunk.js",
+    "static/js/3.dc4276bd.chunk.js.map": "/the-encyclopedia-of-peculiar-birds/static/js/3.dc4276bd.chunk.js.map",
     "index.html": "/the-encyclopedia-of-peculiar-birds/index.html",
-    "static/css/main.aec603a4.chunk.css.map": "/the-encyclopedia-of-peculiar-birds/static/css/main.aec603a4.chunk.css.map",
-    "static/js/2.909f6722.chunk.js.LICENSE.txt": "/the-encyclopedia-of-peculiar-birds/static/js/2.909f6722.chunk.js.LICENSE.txt",
+    "static/css/main.67255253.chunk.css.map": "/the-encyclopedia-of-peculiar-birds/static/css/main.67255253.chunk.css.map",
+    "static/js/2.6ed4d03a.chunk.js.LICENSE.txt": "/the-encyclopedia-of-peculiar-birds/static/js/2.6ed4d03a.chunk.js.LICENSE.txt",
     "static/media/american-flamingo.jpg": "/the-encyclopedia-of-peculiar-birds/static/media/american-flamingo.b70f3da2.jpg",
     "static/media/american-oystercatcher.jpg": "/the-encyclopedia-of-peculiar-birds/static/media/american-oystercatcher.fb793adf.jpg",
     "static/media/american-white-pelican.jpg": "/the-encyclopedia-of-peculiar-birds/static/media/american-white-pelican.2ee7efb7.jpg",
@@ -20,6 +20,7 @@
     "static/media/double-crested-cormorant.jpg": "/the-encyclopedia-of-peculiar-birds/static/media/double-crested-cormorant.0a65450d.jpg",
     "static/media/great-blue-heron.jpg": "/the-encyclopedia-of-peculiar-birds/static/media/great-blue-heron.0d53ab4c.jpg",
     "static/media/green-heron.jpg": "/the-encyclopedia-of-peculiar-birds/static/media/green-heron.89e20888.jpg",
+    "static/media/logo192.png": "/the-encyclopedia-of-peculiar-birds/static/media/logo192.24b0d961.png",
     "static/media/long-billed-curlew.jpg": "/the-encyclopedia-of-peculiar-birds/static/media/long-billed-curlew.1788b8bb.jpg",
     "static/media/mountain-quail.jpg": "/the-encyclopedia-of-peculiar-birds/static/media/mountain-quail.9a4fc7a0.jpg",
     "static/media/osprey.jpg": "/the-encyclopedia-of-peculiar-birds/static/media/osprey.09f91f11.jpg",
@@ -35,9 +36,9 @@
     "static/media/zenaida-dove.jpg": "/the-encyclopedia-of-peculiar-birds/static/media/zenaida-dove.f020ec92.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.46cb84a1.js",
-    "static/js/2.909f6722.chunk.js",
-    "static/css/main.aec603a4.chunk.css",
-    "static/js/main.7a9ded07.chunk.js"
+    "static/js/runtime-main.f88e584b.js",
+    "static/js/2.6ed4d03a.chunk.js",
+    "static/css/main.67255253.chunk.css",
+    "static/js/main.596d59f3.chunk.js"
   ]
 }
