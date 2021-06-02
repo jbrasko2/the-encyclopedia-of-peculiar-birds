@@ -9,8 +9,8 @@ const Title = () => {
 
 const SiteTitle = styled.div`
     font-size: 2rem;
-    text-align: center;
     display: inline-block;
+    margin-left: 12px;
 `
 
 export default Title
