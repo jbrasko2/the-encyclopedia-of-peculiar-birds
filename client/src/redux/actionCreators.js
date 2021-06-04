@@ -30,7 +30,11 @@ export const searchBirds = query => {
     return dispatch => {
         fetch(API + "/birds")
         .then(res => res.json())
-        .then(data => data.filter(bird => bird.name.toUpperCase().includes(query.toUpperCase())))
+        .then(data => data.filter(bird => 
+            bird.name.toUpperCase().includes(query.toUpperCase())
+            ||
+            bird.scientificName.toUpperCase().includes(query.toUpperCase())
+        ))
         .then(birdData => dispatch({
             type: "SEARCH_BIRDS",
             payload: birdData
