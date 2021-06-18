@@ -52,7 +52,7 @@ const BirdName = styled.li`
         transition: 0.5s;
 
         &:hover {
-            color: deeppink;
+            color: blue;
         }
     }
 `
