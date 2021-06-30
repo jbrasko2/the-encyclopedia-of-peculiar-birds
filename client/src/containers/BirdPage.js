@@ -51,7 +51,6 @@ class BirdPage extends Component {
           <p>
             Species: <i>{species}</i>
           </p>
-          <br />
           <p>Conservation: {conservation}</p>
         </FadeInUp>
         <FadeInUp delay='1.25s'>
