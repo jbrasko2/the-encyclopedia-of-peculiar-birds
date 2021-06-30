@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import styled from 'styled-components/macro'
 import { Link } from 'react-router-dom'
 
-class ListPage2 extends Component {
+class ListPage extends Component {
     render() {
 
         const birdLetters = this.props.birds.map(bird => bird.name[0])
@@ -61,4 +61,4 @@ const mapStateToProps = state => ({
     birds: state.birds.birds
 })
 
-export default connect(mapStateToProps)(ListPage2)
+export default connect(mapStateToProps)(ListPage)
