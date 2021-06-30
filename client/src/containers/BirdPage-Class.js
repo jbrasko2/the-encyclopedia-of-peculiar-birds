@@ -1,23 +1,21 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import { setSelectedBird, unsetBird } from '../redux/actionCreators';
 import styled from 'styled-components/macro';
 import { FadeInUp, FadeIn } from 'animate-css-styled-components';
 import Footer from '../components/Footer';
-import { useEffect } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
-import { useParams } from 'react-router-dom';
 
-const BirdPage = () => {
-  const dispatch = useDispatch();
-  const matchId = useParams();
-  const bird = useSelector(state => state.birds.selectedBird);
+class BirdPage extends Component {
+  componentDidMount() {
+    const id = this.props.match.params.id;
+    this.props.setSelectedBird(id);
+  }
 
-  useEffect(() => {
-    dispatch(setSelectedBird(matchId));
-    return dispatch(unsetBird(matchId));
-  });
+  componentWillUnmount() {
+    this.props.unsetBird();
+  }
 
-  const renderPage = () => {
+  renderPage = () => {
     const {
       id,
       name,
@@ -29,7 +27,7 @@ const BirdPage = () => {
       conservation,
       description,
       imgUrl,
-    } = bird;
+    } = this.props;
     return (
       <Wrapper>
         <FadeInUp>
@@ -63,10 +61,12 @@ const BirdPage = () => {
     );
   };
 
-  const renderSpinner = () => <div className='loader'></div>;
+  renderSpinner = () => <div className='loader'></div>;
 
-  return bird.id ? renderPage() : renderSpinner();
-};
+  render() {
+    return this.props.id ? this.renderPage() : this.renderSpinner();
+  }
+}
 
 const Wrapper = styled.div`
   display: flex;
@@ -103,4 +103,10 @@ const Description = styled.div`
   margin: 12px;
 `;
 
-export default BirdPage;
+const mapStateToProps = state => ({
+  ...state.birds.selectedBird,
+});
+
+export default connect(mapStateToProps, { setSelectedBird, unsetBird })(
+  BirdPage
+);
