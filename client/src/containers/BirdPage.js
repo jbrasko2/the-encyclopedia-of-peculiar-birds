@@ -9,17 +9,18 @@ import { useParams } from 'react-router-dom';
 
 const BirdPage = () => {
   const dispatch = useDispatch();
-  const matchId = useParams();
+  const { id } = useParams();
   const bird = useSelector(state => state.birds.selectedBird);
 
   useEffect(() => {
-    dispatch(setSelectedBird(matchId));
-    return dispatch(unsetBird(matchId));
-  });
+    dispatch(setSelectedBird(id));
+    return () => {
+      unsetBird(id);
+    };
+  }, [id, dispatch]);
 
   const renderPage = () => {
     const {
-      id,
       name,
       scientificName,
       order,
@@ -41,8 +42,8 @@ const BirdPage = () => {
         </FadeInUp>
         <FadeIn delay='0.5s' duration='2s'>
           <BirdImage
-            src={require('../bird-images/' + imgUrl).default}
-            alt={id}
+            src={`${process.env.PUBLIC_URL}/assets/bird-images/${imgUrl}`}
+            alt={name}
           />
         </FadeIn>
         <FadeInUp delay='1s'>
@@ -66,7 +67,7 @@ const BirdPage = () => {
 
   const renderSpinner = () => <div className='loader'></div>;
 
-  return bird.id ? renderPage() : renderSpinner();
+  return id ? renderPage() : renderSpinner();
 };
 
 const Wrapper = styled.div`
