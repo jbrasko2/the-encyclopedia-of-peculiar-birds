@@ -1,6 +1,6 @@
-import birdsReducer from './birdsReducer'
-import { combineReducers } from 'redux'
+import birdsReducer from './birdsReducer';
+import { combineReducers } from 'redux';
 
 export const reducer = combineReducers({
-    birds: birdsReducer
-})
+  birds: birdsReducer,
+});
