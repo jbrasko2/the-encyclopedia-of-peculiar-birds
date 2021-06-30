@@ -24,7 +24,7 @@ class ListPage extends Component {
                                             </BirdName>
                                         )
                                     } else {
-                                        return
+                                        return null
                                     }
                                 })}
                             </ul>
