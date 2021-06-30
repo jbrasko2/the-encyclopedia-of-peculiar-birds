@@ -1,20 +1,22 @@
-import React, { Component } from 'react'
-import { connect } from 'react-redux'
+import React from 'react'
 import BirdCard from '../components/BirdCard'
 import SearchBar from '../components/SearchBar'
 import styled from 'styled-components/macro'
 import { FadeIn } from 'animate-css-styled-components'
 import Footer from '../components/Footer'
+import { useSelector } from 'react-redux'
 
-class BirdCardContainer extends Component {
+const BirdCardContainer = () => {
+    const birds = useSelector(state => state.birds.birds)
+    const requesting = useSelector(state => state.birds.requesting)
     
-    renderPage = () => {
+    const renderPage = () => {
         return (
             <>
                 <FadeIn delay=".25s" duration="2s">
                 <SearchBar />
                 <Wrapper>
-                    {this.props.birds.map(bird => <BirdCard key={bird.id} {...bird} />)}
+                    {birds.map(bird => <BirdCard key={bird.id} {...bird} />)}
                 </Wrapper>
                 </FadeIn>
                 <Footer />
@@ -22,13 +24,11 @@ class BirdCardContainer extends Component {
         )
     }
 
-    renderSpinner = () => <div className="loader">Spinner</div>
+    const renderSpinner = () => <div className="loader">Spinner</div>
     
-    render() {
-        return (
-            this.props.requesting ? this.renderSpinner() : this.renderPage()
-        )
-    }
+    return (
+        requesting ? renderSpinner() : renderPage()
+    )
 }
 
 const Wrapper = styled.div`
@@ -37,9 +37,4 @@ const Wrapper = styled.div`
     justify-content: center;
 `
 
-const mapStateToProps = state => ({
-    birds: state.birds.birds,
-    requesting: state.birds.requesting
-})
-
-export default connect(mapStateToProps)(BirdCardContainer)
+export default BirdCardContainer
