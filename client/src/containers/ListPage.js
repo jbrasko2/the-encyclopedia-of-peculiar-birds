@@ -1,64 +1,62 @@
-import React, { Component } from 'react'
-import { connect } from 'react-redux'
-import styled from 'styled-components/macro'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import styled from 'styled-components/macro';
+import { Link } from 'react-router-dom';
+import { useSelector } from 'react-redux';
 
-class ListPage extends Component {
-    render() {
+const ListPage = () => {
+  const birds = useSelector(state => state.birds.birds);
+  const birdLetters = birds.map(bird => bird.name[0]);
+  const uniqueLetters = [...new Set(birdLetters)];
 
-        const birdLetters = this.props.birds.map(bird => bird.name[0])
-        const uniqueLetters = [...new Set(birdLetters)]
-
+  return (
+    <Wrapper>
+      {uniqueLetters.map(letter => {
         return (
-            <Wrapper>
-                {uniqueLetters.map(letter => {
-                    return (
-                        <LetterWrapper>
-                            <h1>{letter}</h1>
-                            <ul>
-                                {this.props.birds.map(bird => {
-                                    if (bird.name.startsWith(letter)) {
-                                        return (
-                                            <BirdName>
-                                                <Link to={"/birds/" + bird.id} style={{ textDecoration: 'none' }}>{bird.name}</Link>
-                                            </BirdName>
-                                        )
-                                    } else {
-                                        return null
-                                    }
-                                })}
-                            </ul>
-                        </LetterWrapper>
-                    )
-                })}
-                </Wrapper>
-        )
-    }
-}
+          <LetterWrapper>
+            <h1>{letter}</h1>
+            <ul>
+              {birds.map(bird => {
+                if (bird.name.startsWith(letter)) {
+                  return (
+                    <BirdName>
+                      <Link
+                        to={'/birds/' + bird.id}
+                        style={{ textDecoration: 'none' }}
+                      >
+                        {bird.name}
+                      </Link>
+                    </BirdName>
+                  );
+                } else {
+                  return null;
+                }
+              })}
+            </ul>
+          </LetterWrapper>
+        );
+      })}
+    </Wrapper>
+  );
+};
 
-const Wrapper = styled.div`
-`
+const Wrapper = styled.div``;
 
 const LetterWrapper = styled.div`
-    width: 25%;
-    margin-left: 16px;
-`
+  width: 25%;
+  margin-left: 16px;
+`;
 
 const BirdName = styled.li`
-    margin-left: -16px;
+  margin-left: -16px;
 
-    a {
-        color: black;
-        transition: 0.5s;
+  a {
+    color: black;
+    transition: 0.5s;
 
-        &:hover {
-            color: deeppink;
-        }
+    &:hover {
+      color: deeppink;
     }
-`
+  }
+`;
 
-const mapStateToProps = state => ({
-    birds: state.birds.birds
-})
-
-export default connect(mapStateToProps)(ListPage)
+export default ListPage;
