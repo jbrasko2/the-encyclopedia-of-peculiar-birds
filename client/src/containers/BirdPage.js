@@ -27,13 +27,15 @@ class BirdPage extends Component {
                     <Scientific>{scientificName}</Scientific>
                 </FadeInUp>
                 <FadeIn delay="0.5s" duration="2s">
-                    <BirdImage src={require('../bird-images/' + imgUrl).default} />
+                    <BirdImage src={require('../bird-images/' + imgUrl).default} alt={id} />
                 </FadeIn>
                 <FadeInUp delay="1s">
                     <p>Order: {order}</p>
                     <p>Family: {family}</p>
                     <p>Genus: <i>{genus}</i></p>
                     <p>Species: <i>{species}</i></p>
+                    <br/>
+                    <p>Conservation: {conservation}</p>
                 </FadeInUp>
                 <FadeInUp delay="1.25s">
                     <Description>{description}</Description>
