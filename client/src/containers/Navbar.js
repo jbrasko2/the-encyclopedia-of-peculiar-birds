@@ -2,14 +2,13 @@ import React from 'react';
 import styled from 'styled-components/macro';
 import { Link } from 'react-router-dom';
 import Title from '../components/Title';
-import logo from '../bird-images/logo192.png';
 
 const Navbar = () => {
   return (
     <NavWrapper>
       <Link to='/'>
         <HomeButton>
-          <Logo src={logo} />
+          <Logo src={`${process.env.PUBLIC_URL}/assets/bird-images/logo192.png`} />
           <Title />
         </HomeButton>
       </Link>
