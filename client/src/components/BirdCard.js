@@ -30,6 +30,11 @@ const Wrapper = styled.div`
 
   &:hover {
     box-shadow: 4px 8px 16px 4px rgba(0, 0, 0, 0.22);
+
+    h2, h4 {
+      color: deeppink;
+      transition: 0.3s;
+    }
   }
 
   img {
