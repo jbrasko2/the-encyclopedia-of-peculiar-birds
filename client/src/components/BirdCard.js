@@ -33,7 +33,6 @@ const Wrapper = styled.div`
 
     h2, h4 {
       color: deeppink;
-      transition: 0.3s;
     }
   }
 
@@ -48,6 +47,10 @@ const Wrapper = styled.div`
 
   a {
     color: inherit;
+  }
+
+  h2, h4 {
+    transition: 0.3s;
   }
 `;
 const NameWrapper = styled.div`
