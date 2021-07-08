@@ -31,7 +31,7 @@ const BirdPage = () => {
       description,
       imgUrl,
     } = bird;
-    
+
     return (
       <Wrapper>
         <FadeInUp>
