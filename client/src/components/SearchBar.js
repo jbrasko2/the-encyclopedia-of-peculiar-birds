@@ -34,6 +34,8 @@ const Wrapper = styled.div`
   margin-top: 32px;
 `;
 
-const Submit = styled.input``;
+const Submit = styled.input`
+  margin-left: 6px;
+`;
 
 export default connect(null, { searchBirds })(SearchBar);
